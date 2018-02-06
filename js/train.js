@@ -1,3 +1,5 @@
+
+
 // Initialize Firebase
   var config = {
     apiKey: "AIzaSyDbz4JVNBfslXUTpQTBJQYdvZyCT76m10o",
@@ -49,11 +51,9 @@
     var trainMinCell = $("<td class='minCell'><p>:" + mins + " mins</p></td>");
     trainRowCell.append(trainLineCell, trainDestCell, trainFreqCell, trainMinAwayCell, trainMinCell);
     trainPlacement.append(trainRowCell);
-    colorizeTrain();
+    // colorizeTrain();
+    $(".trainLineCell p").each(function(){
+      var color = $(this).text();
+      $(this).css("background-color", color);
+    });
   });
-
-  function colorizeTrain(){
-    var paragraphText = $(".trainLineCell p").text();
-    $(".trainLineCell p").css("background-color", paragraphText);
-      console.log("this is running");
-  }
