@@ -15,6 +15,6 @@ The project uses the following technology:
 
 3. A Bootstrap theme for styling.
 
-4. HTML, CSS and jQueryf.
+4. HTML, CSS and jQuery.
 
 Like what you see? Work with me by contacting me at nick@nickvolkert.com, or view more of my work at nickvolkert.com
